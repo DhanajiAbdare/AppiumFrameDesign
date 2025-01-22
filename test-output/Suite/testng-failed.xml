@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="hkbdevelopment.appium.ListnersTestNG"/>
+  </listeners>
+  <test thread-count="5" name="FillForm PositiveTest(failed)">
+    <classes>
+      <class name="hkbdevelopment.FillForm_PositiveTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configAppium"/>
+          <include name="fillFormTest_PositiveFlow"/>
+        </methods>
+      </class> <!-- hkbdevelopment.FillForm_PositiveTest -->
+    </classes>
+  </test> <!-- FillForm PositiveTest(failed) -->
+  <test thread-count="5" name="FillForm NegativeTest(failed)">
+    <classes>
+      <class name="hkbdevelopment.FillForm_NegativeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="fillFormTest_negativeFlow"/>
+          <include name="configAppium"/>
+        </methods>
+      </class> <!-- hkbdevelopment.FillForm_NegativeTest -->
+    </classes>
+  </test> <!-- FillForm NegativeTest(failed) -->
+  <test thread-count="5" name="ValidateAmount Test(failed)">
+    <classes>
+      <class name="hkbdevelopment.ValidateAmount">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateAmountTest"/>
+          <include name="configAppium"/>
+        </methods>
+      </class> <!-- hkbdevelopment.ValidateAmount -->
+    </classes>
+  </test> <!-- ValidateAmount Test(failed) -->
+  <test thread-count="5" name="HandleHybridApp Test(failed)">
+    <classes>
+      <class name="hkbdevelopment.HandleHybridApp">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configAppium"/>
+          <include name="handleHybridAppTest"/>
+        </methods>
+      </class> <!-- hkbdevelopment.HandleHybridApp -->
+    </classes>
+  </test> <!-- HandleHybridApp Test(failed) -->
+  <test thread-count="5" name="HKB Login Test(failed)">
+    <classes>
+      <class name="hkbdevelopment.HKB_Login_Test">
+        <methods>
+          <include name="configAppium"/>
+          <include name="tearDown"/>
+          <include name="Login_PositiveTest"/>
+        </methods>
+      </class> <!-- hkbdevelopment.HKB_Login_Test -->
+    </classes>
+  </test> <!-- HKB Login Test(failed) -->
+  <test thread-count="5" name="HKB Appium Test(failed)">
+    <classes>
+      <class name="hkbdevelopment.HKB_Appium_Test">
+        <methods>
+          <include name="configAppium"/>
+          <include name="tearDown"/>
+          <include name="Appium_Test"/>
+        </methods>
+      </class> <!-- hkbdevelopment.HKB_Appium_Test -->
+    </classes>
+  </test> <!-- HKB Appium Test(failed) -->
+  <test thread-count="5" name="Swipe Gesture Test(failed)">
+    <classes>
+      <class name="hkbdevelopment.SwipeDemo_Gesture">
+        <methods>
+          <include name="SwipeDemoGesture"/>
+          <include name="configAppium"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- hkbdevelopment.SwipeDemo_Gesture -->
+    </classes>
+  </test> <!-- Swipe Gesture Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

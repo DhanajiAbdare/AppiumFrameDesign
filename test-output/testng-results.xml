@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="0" failed="0" skipped="7">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-09T15:10:22 IST" name="Suite" finished-at="2023-08-09T15:10:30 IST" duration-ms="7540">
+    <groups>
+    </groups>
+    <test started-at="2023-08-09T15:10:22 IST" name="FillForm PositiveTest" finished-at="2023-08-09T15:10:29 IST" duration-ms="6925">
+      <class name="hkbdevelopment.FillForm_PositiveTest">
+        <test-method is-config="true" signature="configAppium()[pri:0, instance:hkbdevelopment.FillForm_PositiveTest@2ca26d77]" started-at="2023-08-09T15:10:22 IST" name="configAppium" finished-at="2023-08-09T15:10:29 IST" duration-ms="6860" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_General.configAppium(BaseTest_General.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAppium -->
+        <test-method signature="fillFormTest_PositiveFlow()[pri:0, instance:hkbdevelopment.FillForm_PositiveTest@2ca26d77]" started-at="2023-08-09T15:10:29 IST" name="fillFormTest_PositiveFlow" finished-at="2023-08-09T15:10:29 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_General.configAppium(BaseTest_General.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFormTest_PositiveFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hkbdevelopment.FillForm_PositiveTest@2ca26d77]" started-at="2023-08-09T15:10:29 IST" name="tearDown" finished-at="2023-08-09T15:10:29 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hkbdevelopment.FillForm_PositiveTest -->
+    </test> <!-- FillForm PositiveTest -->
+    <test started-at="2023-08-09T15:10:29 IST" name="FillForm NegativeTest" finished-at="2023-08-09T15:10:29 IST" duration-ms="26">
+      <class name="hkbdevelopment.FillForm_NegativeTest">
+        <test-method is-config="true" signature="configAppium()[pri:0, instance:hkbdevelopment.FillForm_NegativeTest@205d38da]" started-at="2023-08-09T15:10:29 IST" name="configAppium" finished-at="2023-08-09T15:10:29 IST" duration-ms="14" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_General.configAppium(BaseTest_General.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAppium -->
+        <test-method signature="fillFormTest_negativeFlow()[pri:0, instance:hkbdevelopment.FillForm_NegativeTest@205d38da]" started-at="2023-08-09T15:10:29 IST" name="fillFormTest_negativeFlow" finished-at="2023-08-09T15:10:29 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_General.configAppium(BaseTest_General.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillFormTest_negativeFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hkbdevelopment.FillForm_NegativeTest@205d38da]" started-at="2023-08-09T15:10:29 IST" name="tearDown" finished-at="2023-08-09T15:10:29 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hkbdevelopment.FillForm_NegativeTest -->
+    </test> <!-- FillForm NegativeTest -->
+    <test started-at="2023-08-09T15:10:29 IST" name="ValidateAmount Test" finished-at="2023-08-09T15:10:30 IST" duration-ms="32">
+      <class name="hkbdevelopment.ValidateAmount">
+        <test-method is-config="true" signature="configAppium()[pri:0, instance:hkbdevelopment.ValidateAmount@72ef8d15]" started-at="2023-08-09T15:10:29 IST" name="configAppium" finished-at="2023-08-09T15:10:30 IST" duration-ms="18" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_General.configAppium(BaseTest_General.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAppium -->
+        <test-method signature="validateAmountTest()[pri:0, instance:hkbdevelopment.ValidateAmount@72ef8d15]" started-at="2023-08-09T15:10:30 IST" name="validateAmountTest" finished-at="2023-08-09T15:10:30 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_General.configAppium(BaseTest_General.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAmountTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hkbdevelopment.ValidateAmount@72ef8d15]" started-at="2023-08-09T15:10:30 IST" name="tearDown" finished-at="2023-08-09T15:10:30 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hkbdevelopment.ValidateAmount -->
+    </test> <!-- ValidateAmount Test -->
+    <test started-at="2023-08-09T15:10:30 IST" name="HandleHybridApp Test" finished-at="2023-08-09T15:10:30 IST" duration-ms="25">
+      <class name="hkbdevelopment.HandleHybridApp">
+        <test-method is-config="true" signature="configAppium()[pri:0, instance:hkbdevelopment.HandleHybridApp@3fce8fd9]" started-at="2023-08-09T15:10:30 IST" name="configAppium" finished-at="2023-08-09T15:10:30 IST" duration-ms="15" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_General.configAppium(BaseTest_General.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAppium -->
+        <test-method signature="handleHybridAppTest()[pri:0, instance:hkbdevelopment.HandleHybridApp@3fce8fd9]" started-at="2023-08-09T15:10:30 IST" name="handleHybridAppTest" finished-at="2023-08-09T15:10:30 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:chromedriverExecutable=C:\Users\hkb-d\eclipse-workspace\Appium\Drivers\chromedriver.exe, appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\General-Store.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\hkb-d\eclipse-work..., appium:deviceName: Swara, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_General.configAppium(BaseTest_General.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleHybridAppTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hkbdevelopment.HandleHybridApp@3fce8fd9]" started-at="2023-08-09T15:10:30 IST" name="tearDown" finished-at="2023-08-09T15:10:30 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hkbdevelopment.HandleHybridApp -->
+    </test> <!-- HandleHybridApp Test -->
+    <test started-at="2023-08-09T15:10:30 IST" name="HKB Login Test" finished-at="2023-08-09T15:10:30 IST" duration-ms="33">
+      <class name="hkbdevelopment.HKB_Login_Test">
+        <test-method is-config="true" signature="configAppium()[pri:0, instance:hkbdevelopment.HKB_Login_Test@6f1c29b7]" started-at="2023-08-09T15:10:30 IST" name="configAppium" finished-at="2023-08-09T15:10:30 IST" duration-ms="21" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceName=Xiaomi M2006C3MG, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\app-debug.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceName=Xiaomi M2006C3MG, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\app-debug.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_HKB.configAppium(BaseTest_HKB.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAppium -->
+        <test-method signature="Login_PositiveTest()[pri:0, instance:hkbdevelopment.HKB_Login_Test@6f1c29b7]" started-at="2023-08-09T15:10:30 IST" name="Login_PositiveTest" finished-at="2023-08-09T15:10:30 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceName=Xiaomi M2006C3MG, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\app-debug.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceName=Xiaomi M2006C3MG, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\app-debug.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_HKB.configAppium(BaseTest_HKB.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_PositiveTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hkbdevelopment.HKB_Login_Test@6f1c29b7]" started-at="2023-08-09T15:10:30 IST" name="tearDown" finished-at="2023-08-09T15:10:30 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hkbdevelopment.HKB_Login_Test -->
+    </test> <!-- HKB Login Test -->
+    <test started-at="2023-08-09T15:10:30 IST" name="HKB Appium Test" finished-at="2023-08-09T15:10:30 IST" duration-ms="32">
+      <class name="hkbdevelopment.HKB_Appium_Test">
+        <test-method is-config="true" signature="configAppium()[pri:0, instance:hkbdevelopment.HKB_Appium_Test@2cb2fc20]" started-at="2023-08-09T15:10:30 IST" name="configAppium" finished-at="2023-08-09T15:10:30 IST" duration-ms="20" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceName=Xiaomi M2006C3MG, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\app-debug.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceName=Xiaomi M2006C3MG, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\app-debug.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_HKB.configAppium(BaseTest_HKB.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAppium -->
+        <test-method signature="Appium_Test()[pri:0, instance:hkbdevelopment.HKB_Appium_Test@2cb2fc20]" started-at="2023-08-09T15:10:30 IST" name="Appium_Test" finished-at="2023-08-09T15:10:30 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceName=Xiaomi M2006C3MG, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\app-debug.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceName=Xiaomi M2006C3MG, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\app-debug.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Xiaomi M2006C3MG, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_HKB.configAppium(BaseTest_HKB.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appium_Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hkbdevelopment.HKB_Appium_Test@2cb2fc20]" started-at="2023-08-09T15:10:30 IST" name="tearDown" finished-at="2023-08-09T15:10:30 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hkbdevelopment.HKB_Appium_Test -->
+    </test> <!-- HKB Appium Test -->
+    <test started-at="2023-08-09T15:10:30 IST" name="Swipe Gesture Test" finished-at="2023-08-09T15:10:30 IST" duration-ms="27">
+      <class name="hkbdevelopment.SwipeDemo_Gesture">
+        <test-method is-config="true" signature="configAppium()[pri:0, instance:hkbdevelopment.SwipeDemo_Gesture@3116c353]" started-at="2023-08-09T15:10:30 IST" name="configAppium" finished-at="2023-08-09T15:10:30 IST" duration-ms="17" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\ApiDemos-debug.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Swara, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\ApiDemos-debug.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Swara, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_API.configAppium(BaseTest_API.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAppium -->
+        <test-method signature="SwipeDemoGesture()[pri:0, instance:hkbdevelopment.SwipeDemo_Gesture@3116c353]" started-at="2023-08-09T15:10:30 IST" name="SwipeDemoGesture" finished-at="2023-08-09T15:10:30 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\ApiDemos-debug.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Swara, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'HKB_INDIA', ip: '192.168.1.32'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceName=Swara, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C:\Users\hkb-d\eclipse-workspace\AppiumFrameworkDesign1\src\test\java\Resource\ApiDemos-debug.apk}], desiredCapabilities=Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Swara, platformName: ANDROID}}]
+Capabilities {appium:app: C:\Users\hkb-d\eclipse-work..., appium:automationName: UIAutomator2, appium:deviceName: Swara, platformName: ANDROID}
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:159)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:101)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:113)
+at hkbdevelopment.appium.BaseTest_API.configAppium(BaseTest_API.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.String org.openqa.selenium.json.Json.toJson(java.lang.Object, int)'
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:126)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:111)
+at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:105)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:101)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwipeDemoGesture -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hkbdevelopment.SwipeDemo_Gesture@3116c353]" started-at="2023-08-09T15:10:30 IST" name="tearDown" finished-at="2023-08-09T15:10:30 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hkbdevelopment.SwipeDemo_Gesture -->
+    </test> <!-- Swipe Gesture Test -->
+  </suite> <!-- Suite -->
+</testng-results>

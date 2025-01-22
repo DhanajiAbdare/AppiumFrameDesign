@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="hkbdevelopment.appium.ListnersTestNG"/>
+	</listeners>
+	  <test thread-count="5" name="FillForm PositiveTest">
+	    <classes>
+	      <class name="hkbdevelopment.FillForm_PositiveTest"/>
+	    </classes>
+	  </test> <!-- Test -->
+	  <test thread-count="5" name="FillForm NegativeTest">
+	    <classes>
+	      <class name="hkbdevelopment.FillForm_NegativeTest"/>
+	    </classes>
+	  </test> <!-- Test -->
+	  <test thread-count="5" name="ValidateAmount Test">
+	    <classes>
+	      <class name="hkbdevelopment.ValidateAmount"/>
+	    </classes> 
+	  </test> <!-- Test -->
+	  <test thread-count="5" name="HandleHybridApp Test">
+	    <classes>
+	      <class name="hkbdevelopment.HandleHybridApp"/>
+	    </classes>
+	  </test> <!-- Test -->
+	  <test thread-count="5" name="HKB Login Test">
+	    <classes>
+	      <class name="hkbdevelopment.HKB_Login_Test"/>
+	    </classes>
+	  </test> <!-- Test -->
+	    <test thread-count="5" name="HKB Appium Test">
+	    <classes>
+	      <class name="hkbdevelopment.HKB_Appium_Test"/>
+	    </classes>
+	  </test> <!-- Test -->
+	  <test thread-count="5" name="Swipe Gesture Test">
+	    <classes>
+	      <class name="hkbdevelopment.SwipeDemo_Gesture"/>
+	    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
